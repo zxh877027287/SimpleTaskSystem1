@@ -1,4 +1,7 @@
 ﻿using Abp.EntityFramework;
+using SimpleTaskSystem.People;
+using SimpleTaskSystem.Tasks;
+using System.Data.Entity;
 
 namespace SimpleTaskSystem.EntityFramework
 {
@@ -8,14 +11,15 @@ namespace SimpleTaskSystem.EntityFramework
 
         //Example:
         //public virtual IDbSet<User> Users { get; set; }
-
+        public virtual IDbSet<Task> Tasks { get; set; }
+        public virtual IDbSet<Person> People { get; set; }
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
          *   pass connection string name to base classes. ABP works either way.
          */
         public SimpleTaskSystemDbContext()
-            : base("Default")
+            : base("SimpleTaskSystem")
         {
 
         }
