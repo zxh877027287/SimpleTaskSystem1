@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFA48E27-7D53-4955-A722-3D91A7119BE7}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskSystem.Web", "SimpleTaskSystem.Web\SimpleTaskSystem.Web.csproj", "{897F6FD8-6F90-48E4-95A5-B4429B896205}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTaskSystem.WebApi", "SimpleTaskSystem.WebApi\SimpleTaskSystem.WebApi.csproj", "{5EB52D3D-09FD-463A-B02A-8D9856BD3724}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolderRecord", "NewFolderRecord", "{5677280E-F7E9-48B8-84C5-DF3EAA7AB00E}"
+	ProjectSection(SolutionItems) = preProject
+		abp-study-1.txt = abp-study-1.txt
+		abp-study-ABP分层架构.txt = abp-study-ABP分层架构.txt
+		abp-study.txt = abp-study.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
